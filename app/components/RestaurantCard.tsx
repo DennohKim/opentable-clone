@@ -1,4 +1,3 @@
-"use client"
 
 import Link from 'next/link';
 import React from 'react'
@@ -9,7 +8,7 @@ interface Props {
   restaurant: RestaurantCardType
 }
 
-export default function RestaurantCard({restaurant}: Props) {
+export default function RestaurantCard({ restaurant }: Props) {
   return (
     <div className="w-64 h-72 m-3 rounded overflow-hidden border cursor-pointer">
       <Link href={`/restaurant/${restaurant.slug}`}>
