@@ -9,7 +9,7 @@ interface Props {
 
 export default function RestaurantCard({restaurant}: Props) {
   return (
-    <div className="border-b flex pb-5">
+    <div className="border-b flex pb-5 ml-4">
       <img src={restaurant.main_image} alt="" className="w-44 rounded" />
       <div className="pl-5">
         <h2 className="text-3xl">{restaurant.name}</h2>
